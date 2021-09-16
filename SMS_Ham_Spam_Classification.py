@@ -41,7 +41,7 @@ class database:
             mydb = mysql.connector.connect(
                     host = "localhost",
                     user = "root",
-                    passwd = "Prash@9731",
+                    passwd = "******", # Give your database password
                     database = "spam_ham")
             return mydb
         except Exception as e:
