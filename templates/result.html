@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spam Ham Classifier</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	
+<style>
+{
+background-image:url({{url_for('static',filename='spam-filter.jpg')}});
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+h1 {
+color:white;
+background-color:black;
+font-family:monospace;
+}
+img{
+margin-left:50px;
+}
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.a{
+margin-left:50px;
+font-size:10px;
+}
+.pd {
+margin-left:120px;
+}
+.tm {
+margin-left:180px;
+}
+</style>
+</head>
+<body style="background-color:#c2e2ec">
+
+		<center>
+		<h1><strong> SPAM HAM MESSAGE DETECTOR</strong></h1>
+	<br>	
+	<br>
+	<br>
+	<div class="results">
+	{% if prediction == 1%}
+	<h2>Message is</h2><h2 style="color:red;">Spam</h2>
+	{% elif prediction == 0%}
+	<h2>Message is </h2><h2 style="color:blue;">Not a Spam (It is a Ham)</h2>
+	{% endif %}
+
+	</div>
+	</center>	
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+<div class="column">
+<img src='static\spam-filter.jpg' width="300px" height="200px"> 
+<p class="a"> Image source: Google</p>
+</div>
+<div class="column">
+<div class="pd">
+<h4><strong>Project Description</strong></h4>
+<p style="color:#9400D3"><strong>Project: Spam Ham Classifier</strong></p>
+<p style="color:#9400D3"><strong>Database: MySQL</strong></p>
+<p style="color:#9400D3"><strong>Framework: Flask for API</strong></p>
+<p style="color:#9400D3"><strong>Cloud: Heroku</strong></p>
+</div>
+</div>
+<div class="column">
+<div class="tm">
+<h4><strong>Team Members</strong></h4>
+<p style="color:#000080"><strong>Ashok Kumar S</strong></p>
+<p style="color:#000080"><strong>M C Shravan</strong></p>
+<p style="color:#000080"><strong>Akanksha Venkatesh V B</strong></p>
+<p style="color:#000080"><strong>Geetha S</strong></p>
+</div>
+</div>
+
+</div>
+
+<br>
+<br>
+<br>
+<center>
+<div>
+<footer>
+<p><strong>Developed By: Ashok Kumar S ©2021</strong></p>
+</footer>
+</div>
+</center>
+	
+	
+
+</body>
+</html>
