@@ -69,3 +69,6 @@
 16/09/2021 11:29:49 PM:INFO:Rendering a Home page
 16/09/2021 11:29:49 PM:INFO:127.0.0.1 - - [16/Sep/2021 23:29:49] "[37mGET / HTTP/1.1[0m" 200 -
 16/09/2021 11:29:49 PM:INFO:127.0.0.1 - - [16/Sep/2021 23:29:49] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+16/09/2021 11:30:09 PM:INFO:Reading a Message from user
+16/09/2021 11:30:09 PM:INFO:127.0.0.1 - - [16/Sep/2021 23:30:09] "[37mPOST /predict HTTP/1.1[0m" 200 -
+16/09/2021 11:30:09 PM:INFO:127.0.0.1 - - [16/Sep/2021 23:30:09] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
