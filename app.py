@@ -20,7 +20,7 @@ except Exception as e:
 app = Flask(__name__)
 
 # Configure db
-'''try:
+try:
     logging.info("Configure Database")
     db = yaml.load(open('db.yaml'))
     app.config['MYSQL_HOST'] = db['mysql_host']
@@ -31,7 +31,7 @@ except Exception as e:
     print(e)
     logging.exception(e)
 
-mysql = MySQL(app)'''
+mysql = MySQL(app)
 
 @app.route('/')
 def home():
@@ -47,14 +47,14 @@ def predict():
             data = [Message]
             vect = cv.transform(data).toarray()
             my_prediction = model.predict(vect)
-            #if my_prediction ==0:
-             #   Label = 'ham'
-            #elif my_prediction == 1:
-             #   Label = 'spam'
-            #mycursor = mysql.connection.cursor()
-            #mycursor.execute("INSERT INTO prediction(Label, Message) VALUES(%s, %s)",(Label, Message))
-            #mysql.connection.commit()
-            #mycursor.close()
+            if my_prediction ==0:
+                Label = 'ham'
+            elif my_prediction == 1:
+                Label = 'spam'
+            mycursor = mysql.connection.cursor()
+            mycursor.execute("INSERT INTO prediction(Label, Message) VALUES(%s, %s)",(Label, Message))
+            mysql.connection.commit()
+            mycursor.close()
         return render_template('result.html',prediction = my_prediction)
     except Exception as e:
         print(e)
