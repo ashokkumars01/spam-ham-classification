@@ -372,7 +372,7 @@ class Hyper_Param_Tuning:
             logging.exception(e)
 
 obj = Hyper_Param_Tuning(X_train, X_test, Y_train, Y_test)
-YETC_pred, ETC = obj.extra_trees()
+YETC1_pred, ETC1 = obj.extra_trees()
 
 ## Dumping the Model to pickle file
 class pkl:
