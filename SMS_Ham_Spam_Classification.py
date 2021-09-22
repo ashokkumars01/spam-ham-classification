@@ -334,8 +334,8 @@ def params():
             'max_features':["auto", "sqrt", "log2"],
             'max_leaf_nodes': [1,2,3,4,5,6,7,8]
         }
-        ETC = ExtraTreesClassifier()
-        random_search=RandomizedSearchCV(ETC,param_distributions=params,n_iter=5,n_jobs=-1,cv=5,verbose=3)
+        ETC1 = ExtraTreesClassifier()
+        random_search=RandomizedSearchCV(ETC1,param_distributions=params,n_iter=5,n_jobs=-1,cv=5,verbose=3)
         random_search.fit(X_train,Y_train)
         print(random_search.best_estimator_)
         print(random_search.best_params_)
@@ -357,16 +357,16 @@ class Hyper_Param_Tuning:
         try:
             logging.info("Fitting the model using Hyper parameters ")
             ## Fitting the Model Using ExtraTreesClassifier
-            ETC = ExtraTreesClassifier(criterion='entropy', max_depth=10, max_leaf_nodes=8,
+            ETC1 = ExtraTreesClassifier(criterion='entropy', max_depth=10, max_leaf_nodes=8,
                      n_estimators=300)
-            ETC.fit(self.X_train, self.Y_train)
-            YETC_pred = ETC.predict(self.X_test)
+            ETC1.fit(self.X_train, self.Y_train)
+            YETC1_pred = ETC1.predict(self.X_test)
             print("ExtraTreesClassifier")
-            print(ETC.score(self.X_test, self.Y_test))
-            print(confusion_matrix(self.Y_test, YETC_pred))
-            print(accuracy_score(self.Y_test, YETC_pred))
-            print(classification_report(self.Y_test, YETC_pred))
-            return YETC_pred, ETC
+            print(ETC1.score(self.X_test, self.Y_test))
+            print(confusion_matrix(self.Y_test, YETC1_pred))
+            print(accuracy_score(self.Y_test, YETC1_pred))
+            print(classification_report(self.Y_test, YETC1_pred))
+            return YETC1_pred, ETC1
         except Exception as e:
             print(e)
             logging.exception(e)
