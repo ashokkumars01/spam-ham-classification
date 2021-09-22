@@ -170,7 +170,7 @@ class file:
     def dump():
         try:
             logging.info("Dumping Extracted features to pickle file")
-            pickle.dump(cv, open(r'C:\Users\prash\Desktop\data\SMS_Spam_Ham_Classification\transform1.pkl','wb'))
+            pickle.dump(cv, open(r'C:\Users\prash\Desktop\data\SMS_Spam_Ham_Classification\transform.pkl','wb'))
         except Exception as e:
             print(e)
             logging.exception(e)
