@@ -1,11 +1,12 @@
 # Spam Ham Classifier
 
 ## Demo
-Link: http://stores-sales-prediction.herokuapp.com/
+Link: http://spam-ham-detector-api.herokuapp.com/
 
-![3](https://user-images.githubusercontent.com/56039882/131975171-4c470ec8-a818-49f0-a598-69dc00f697f2.PNG)
-![4](https://user-images.githubusercontent.com/56039882/131975204-87bc1d5d-9ac6-4d02-9fdf-9bf3960a18ef.PNG)
-![5](https://user-images.githubusercontent.com/56039882/131975233-0f07f75a-530c-4449-84b2-bb36812a39b9.PNG)
+![1](https://user-images.githubusercontent.com/56039882/134387694-d81a2439-35b9-4123-afc7-9d8a4b44f843.PNG)
+![2](https://user-images.githubusercontent.com/56039882/134387750-e8a33707-3667-4a72-b7f1-25cd536249b6.PNG)
+![3](https://user-images.githubusercontent.com/56039882/134387808-8e3ea6e2-f707-4783-9fd3-2e665bee6d81.PNG)
+![4](https://user-images.githubusercontent.com/56039882/134387940-0543fc66-ad63-4ba0-a066-097f11e1ac2b.PNG)
 
 ## Demo Video
 YouTube Link: https://www.youtube.com/watch?v=KGbDN1ARc-8
