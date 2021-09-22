@@ -1,4 +1,4 @@
-# spam-ham-classification
+# Spam Ham Classifier
 
 ## Demo
 Link: http://stores-sales-prediction.herokuapp.com/
