@@ -3,10 +3,10 @@
 ## Demo
 Link: http://spam-ham-detector-api.herokuapp.com/
 
-![1](https://user-images.githubusercontent.com/56039882/134387694-d81a2439-35b9-4123-afc7-9d8a4b44f843.PNG)
-![2](https://user-images.githubusercontent.com/56039882/134387750-e8a33707-3667-4a72-b7f1-25cd536249b6.PNG)
-![3](https://user-images.githubusercontent.com/56039882/134387808-8e3ea6e2-f707-4783-9fd3-2e665bee6d81.PNG)
-![4](https://user-images.githubusercontent.com/56039882/134387940-0543fc66-ad63-4ba0-a066-097f11e1ac2b.PNG)
+![1](https://user-images.githubusercontent.com/56039882/134461472-82c6da87-ff87-4506-a911-72bbd836a13f.PNG)
+![2](https://user-images.githubusercontent.com/56039882/134461493-245bddbd-ab34-4384-a7b8-55479e98c5fb.PNG)
+![3](https://user-images.githubusercontent.com/56039882/134461507-15d456e4-3470-4510-8e50-5ddd03b34e59.PNG)
+![4](https://user-images.githubusercontent.com/56039882/134461522-15bbd464-1da7-4ea6-b068-95a4351b1b33.PNG)
 
 ## Demo Video
 YouTube Link: https://www.youtube.com/watch?v=KGbDN1ARc-8
