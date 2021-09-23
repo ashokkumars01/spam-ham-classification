@@ -53,9 +53,11 @@ margin-left:180px;
 	<br>
 	<div class="results">
 	{% if prediction == 1%}
-	<h2>Message is</h2><h2 style="color:red;">Spam</h2>
+	<h2>Message is</h2>
+	<h2 style="color:red;"><strong>Spam</strong></h2>
 	{% elif prediction == 0%}
-	<h2>Message is </h2><h2 style="color:blue;">Not a Spam (It is a Ham)</h2>
+	<h2>Message is </h2>
+	<h2 style="color:blue;"><strong>Not a Spam (It is a Ham)</strong></h2>
 	{% endif %}
 
 	</div>
