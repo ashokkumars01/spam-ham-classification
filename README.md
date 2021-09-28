@@ -9,7 +9,7 @@ Link: http://spam-ham-detector-api.herokuapp.com/
 ![4](https://user-images.githubusercontent.com/56039882/134461522-15bbd464-1da7-4ea6-b068-95a4351b1b33.PNG)
 
 ## Demo Video
-YouTube Link: https://www.youtube.com/watch?v=KGbDN1ARc-8
+YouTube Link: https://www.youtube.com/watch?v=UU1dl6cckYI
 
 ## Overview
 This is a Flask web app which predicts item outlet sales of Stores Sales Prediction.
