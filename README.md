@@ -25,7 +25,7 @@ Login or signup in order to create virtual app. You can either connect your gith
 Our next step would be to follow the instruction given on Heroku Documentation to deploy a web app.
 
 ## Directory Tree
-![image](https://user-images.githubusercontent.com/56039882/131978926-6eb2d854-a08a-45fe-9821-4439eb5f08ff.png)
+![image](https://user-images.githubusercontent.com/56039882/136026691-2fd14f4a-1a5c-449c-b993-7d264b515553.png)
 
 
 ## Technologies Used
