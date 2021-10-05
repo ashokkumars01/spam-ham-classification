@@ -12,7 +12,13 @@ Link: http://spam-ham-detector-api.herokuapp.com/
 YouTube Link: https://www.youtube.com/watch?v=UU1dl6cckYI
 
 ## Overview
-This is a Flask web app which predicts item outlet sales of Stores Sales Prediction.
+The high number of unsolicited emails commonly called spam has necessitated the development of an
+increase in reliable and robust antispam filters. Using the recent machine learning approach we have been
+successful in detecting and filtering spam emails. We are classifying Spam or ham from the dataset which is
+a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS
+messages in English of 5,574 messages, tagged according to being ham (legitimate) or spam
+
+This is a Flask web app which predicts spam or ham messages of Spam Ham Classifier.
 
 ## Installation
 The Code is written in Python 3.8.9. If you don't have Python installed you can click on the link https://www.python.org/downloads/. If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after cloning the repository:
