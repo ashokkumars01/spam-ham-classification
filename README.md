@@ -16,7 +16,9 @@ The high number of unsolicited emails commonly called spam has necessitated the 
 increase in reliable and robust antispam filters. Using the recent machine learning approach we have been
 successful in detecting and filtering spam emails. We are classifying Spam or ham from the dataset which is
 a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS
-messages in English of 5,574 messages, tagged according to being ham (legitimate) or spam
+messages in English of 5,574 messages, tagged according to being ham (legitimate) or spam.
+
+In this project we have used MySQL database
 
 This is a Flask web app which predicts spam or ham messages of Spam Ham Classifier.
 
